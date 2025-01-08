@@ -7,6 +7,10 @@ settings:
 importers:
 
   .:
+    dependencies:
+      chalk:
+        specifier: ^4.0.0
+        version: 4.1.2
     devDependencies:
       '@aws-sdk/types':
         specifier: ^3.391.0
@@ -29,9 +33,6 @@ importers:
       aws-sdk:
         specifier: ^2.1437.0
         version: 2.1437.0
-      chalk:
-        specifier: ^4.0.0
-        version: 4.1.2
       execa:
         specifier: ^7.2.0
         version: 7.2.0
