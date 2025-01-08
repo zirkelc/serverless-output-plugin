@@ -39,7 +39,6 @@
     "@types/node": "^20.5.0",
     "@types/serverless": "^3.12.14",
     "aws-sdk": "^2.1437.0",
-    "chalk": "^4.0.0",
     "execa": "^7.2.0",
     "js-yaml": "^4.1.0",
     "json-schema-to-ts": "^2.9.2",
@@ -49,6 +48,9 @@
     "serverless-localstack": "^1.1.1",
     "typescript": "^5.1.6",
     "vitest": "^0.34.1"
+  },
+  "dependencies": {
+    "chalk": "^4.0.0"
   },
   "peerDependencies": {
     "serverless": "^3.0.0 || ^4.0.0"
